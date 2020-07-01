@@ -21,7 +21,7 @@ CREATE TABLE bewertung(id INT PRIMARY KEY AUTO_INCREMENT,
 CREATE TABLE bild(id INT PRIMARY KEY AUTO_INCREMENT,
     bildtitel VARCHAR(45),
     erstelldatum DATE,
-    bild BLOB,
+    bild MEDIUMBLOB,
     user_id INT);
 
 
